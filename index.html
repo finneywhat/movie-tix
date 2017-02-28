@@ -9,22 +9,31 @@
   </head>
   <body>
     <div class="container">
-      <form id="formOne">
+      <h1>Ticket Price Determinator</h1>
+      <form id="formOne" class="well">
+        <label for="movie">Select the movie you want to watch</label>
         <select class="form-control" id="movie">
-          <option value="2">La La Land</option>
-          <option value="1">Groundhog Day</option>
-          <option value="1">Boyz in tha Hood</option>
+          <option value="0"></option>
+          <option>La La Land</option>
+          <option value="5">Groundhog Day</option>
+          <option value="5">Boyz in tha Hood</option>
         </select>
+        <label for="time">Pick a time</label>
         <select class="form-control" id="time">
+          <option value="0"></option>
           <option value="1">11:00 a.m.</option>
           <option value="2">6:00 p.m.</option>
           <option value="2">8:30 p.m.</option>
         </select>
+        <label for="age">Select your age range</label>
         <select class="form-control" id="age">
+          <option value="0"></option>
           <option value="1">Under 12</option>
           <option value="2">Whatever</option>
           <option value="1">65+</option>
         </select>
+        <br>
+        <button type="submit" class="btn btn-primary">Hey</button>
 
       </form>
     </div>

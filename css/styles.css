@@ -1,3 +1,14 @@
 .well {
   box-shadow: 0px 4px 10px black;
 }
+
+#outputText {
+  display: none;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.alert {
+  display: none;
+}

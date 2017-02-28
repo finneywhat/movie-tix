@@ -14,9 +14,9 @@
         <label for="movie">Select the movie you want to watch</label>
         <select class="form-control" id="movie">
           <option value="0"></option>
-          <option>La La Land</option>
-          <option value="5">Groundhog Day</option>
-          <option value="5">Boyz in tha Hood</option>
+          <option value="8" name="La La Land">La La Land</option>
+          <option value="5" name="Groundhog Day">Groundhog Day</option>
+          <option value="5" name="Boyz in tha Hood">Boyz in tha Hood</option>
         </select>
         <label for="time">Pick a time</label>
         <select class="form-control" id="time">
@@ -34,8 +34,10 @@
         </select>
         <br>
         <button type="submit" class="btn btn-primary">Hey</button>
-
       </form>
+      <div class="alert alert-danger" role="alert">You forgot to choose something. Try again.</div>
+      <div id="outputText"><p>Based on your selections, your total price is $<span id="priceOfTicket"></span>.00. Click to pay.</p>
+      </div>
     </div>
   </body>
 </html>
